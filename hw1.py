@@ -1,5 +1,3 @@
-
-
 def caching_fibonacci():
     """
     function to cache fibonacci function results
@@ -48,6 +46,8 @@ if __name__ == "__main__":
     # Використовуємо функцію fibonacci для обчислення чисел Фібоначчі
     # first calculation calculates all the numbers up to 10
     print(fib(10))  # Виведе 55
+
+
     # second calculation does not need to do extra computation, and calculates
     # only numbers in the range  from 10 to 15
     print(fib(15))  # Виведе 610
